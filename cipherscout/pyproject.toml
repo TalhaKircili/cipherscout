@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cipherscout"
+version = "0.1.0"
+description = "TLS cipher suite auditor using SSLyze, BSI TR-02102-2, and ciphersuite.info"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "pdfplumber>=0.11.0",
+    "requests>=2.32.0",
+    "sslyze>=6.0.0",
+    "tabulate>=0.9.0",
+]
+
+[project.scripts]
+cipherscout = "cipherscout.cli:main"
