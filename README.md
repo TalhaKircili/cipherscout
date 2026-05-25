@@ -88,14 +88,14 @@ Legend
 
 Certificate Information
 
-+----------------------------+------------------+
-| Field                      | Value            |
-+============================+==================+
-| Public Key Algorithm       | RSAPublicKey     |
-| Key Size                   | 4096             |
++----------------------------+-------------------------+
+| Field                      | Value                   |
++============================+=========================+
+| Public Key Algorithm       | RSAPublicKey            |
+| Key Size                   | 4096                    |
 | Signature Algorithm        | sha256WithRSAEncryption |
-| OCSP Stapling              | supported        |
-+----------------------------+------------------+
+| OCSP Stapling              | supported               |
++----------------------------+-------------------------+
 
 Supported TLS Versions
 
